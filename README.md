@@ -55,3 +55,10 @@ Uma placa detecta quando o jogador está sobre ela (`OnTriggerEnter2D`) e abre u
 ### Plataformas móveis
 
 Esse elemento é bem recorrente, pois é muito flexível. Permite a criação de cenas de tensão através de trajetórias e uma remoção do controle do jogador. Além disso, tem uma relação forte com ritmo e tempo. Tecnicamente, os caminhos da trajetória de uma plataforma são criado no Tiled, usando a ferramenta de *polylines*. Depois, dentro da Unity, a ferramenta Tiled2Unity converte isso para um `EdgeCollider2D`, que guarda uma lista de pontos. O script `MovingPlatform` usa essa lista de pontos para criar um tween (uma animação) controlando o movimento do jogador. Para fazer o personagem acompanhar a plataforma, ele se torna um "filho" da plataforma enquanto está tocando nela.
+
+---
+**Enric Llagostera** | [email](mailto:enricllagostera@gmail.com) | [facebook](http://www.facebook.com/enricllagostera)
+
+Todo o conteúdo original deste repositório e sua wiki está sob a licença [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/), a não ser quando marcado de outra forma. 
+
+[![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
