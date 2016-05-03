@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Tiles" tilewidth="64" tileheight="64">
+  <image source="../../../../Users/Enric/Desktop/SistemaLevelDesign/LevelDesign/tilesheet_complete.png" width="1408" height="768"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="67">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="69">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="70">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="71">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="41"/>
+   </objectgroup>
+  </tile>
+  <tile id="72">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="42"/>
+   </objectgroup>
+  </tile>
+  <tile id="73">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="63" height="44"/>
+   </objectgroup>
+  </tile>
+  <tile id="74">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="42"/>
+   </objectgroup>
+  </tile>
+  <tile id="88">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="89">
+   <objectgroup draworder="index">
+    <object x="0" y="64">
+     <polygon points="0,0 64,-64 64,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="90">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polygon points="0,0 64,64 0,64"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="91">
+   <objectgroup draworder="index">
+    <object x="0" y="64">
+     <polygon points="0,0 64,-64 64,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="92">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polygon points="0,0 64,64 0,64"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="93">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="94">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="95">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polyline points="0,0 64,64 64,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="96">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polygon points="0,0 0,64 64,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="110">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="111">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="112">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="113">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="114">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="115">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="116">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="117">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polyline points="0,0 64,64 64,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="118">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polyline points="0,0 64,0 0,64 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="194">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+  <tile id="216">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="64" height="64"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Foreground" width="20" height="15">
+  <properties>
+   <property name="unity:layer" value="SolidScenario"/>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,68,70,0,0,68,69,70,0,0,0,0,0,0,
+0,0,0,0,0,0,0,67,67,0,0,67,67,67,0,0,0,0,0,0,
+69,69,69,69,70,0,0,67,67,0,0,67,67,95,69,70,0,0,0,0,
+67,67,67,67,67,0,0,67,95,97,0,67,67,67,67,67,0,0,0,0,
+67,67,67,67,67,0,0,67,67,0,0,67,67,67,67,67,0,0,72,73,
+67,67,67,67,67,0,0,67,67,0,0,67,67,67,67,67,0,0,0,0,
+67,67,67,67,67,0,0,67,67,0,0,67,67,67,67,67,0,0,0,0
+</data>
+ </layer>
+ <layer name="BackgroundObjects" width="20" height="15">
+  <properties>
+   <property name="unity:sortingLayerName" value="BackgroundObjects"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+76,0,0,77,0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="OuterWalls">
+  <properties>
+   <property name="unity:layer" value="SolidScenario"/>
+  </properties>
+  <object x="1272" y="-26" width="56" height="998"/>
+  <object x="-104" y="-126" width="1420" height="162"/>
+  <object x="-18" y="-16" width="32" height="992"/>
+ </objectgroup>
+ <objectgroup name="DeathZone">
+  <properties>
+   <property name="unity:isTrigger" value="true"/>
+   <property name="unity:layer" value="DeathZone"/>
+  </properties>
+  <object x="-10" y="924" width="1318" height="48"/>
+ </objectgroup>
+ <layer name="GreenBlocks" width="20" height="15">
+  <properties>
+   <property name="unity:layer" value="SolidScenario"/>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="RedBlocks" width="20" height="15">
+  <properties>
+   <property name="unity:layer" value="SolidScenario"/>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,195,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,195,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,195,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Top" width="20" height="15">
+  <properties>
+   <property name="unity:sortingLayerName" value="Top"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,235,
+257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257
+</data>
+ </layer>
+</map>
