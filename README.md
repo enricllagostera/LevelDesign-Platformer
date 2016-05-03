@@ -2,6 +2,8 @@
 
 ![](http://i.giphy.com/26FxCd1xmbA8z6OIg.gif)
 
+Exemplo de integração de diversas ferramentas para level design, com o objetivo de servir de base para exercícios de criação de fases, progressão e balanceamento de jogos. Criado para a disciplina de Balanceamento de Jogos, na PUC-Campinas, 1º semestre de 2016.
+
 ## Ferramentas
 
 ### [Tiled](http://www.mapeditor.org/)
