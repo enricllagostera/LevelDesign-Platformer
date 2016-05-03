@@ -20,7 +20,7 @@ A escala dos mapas (*vertex scale*) é calculada a partir da densidade de um til
 - `unity:isTrigger`: altera a propriedade `isTrigger` dos colliders de objetos dessa camada.
 - `unity:sortingLayerName`: objetos são colocados em uma `SortingLayer` para ordenação visual.
 
-#### PrefabSpawner e PrefabSpawnerEditor
+#### `PrefabSpawner` e `PrefabSpawnerEditor`
 
 Estes dois scripts procuram a cena atual por objetos com a tag `Spawner`, para depois comparar com os prefabs na pasta `Resources`. Se encontrar os mesmos nomes, ele substitui esses objetos temporários pelos prefabs finais. É prático para facilitar a edição no Tiled, onde você pode ver todo o layout da fase sem ter muito retrabalho na hora de substituir pelos prefabs.
 
